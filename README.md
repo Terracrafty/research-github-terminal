@@ -31,10 +31,21 @@
 ## Example Git commands:
 	
 	- git init
-		- Initializes a repository in the current directory.
+		- Creates a Git repository in the current directory.
+	- git status
+		- Displays current branch, modified and staged files, and untracked files that are not set to ignore.
+	- git add
+		- Adds files to index, to be updated in the next commit.
+	- git diff
+		- Displays differences between index and current working tree by default. Can also compare things in a number of other ways.
+	- git commit
+		- Creates a new commit from the current contents of the index.
+	- git branch
+		- Displays and creates new branches in the repository.
 	
 
 ## Sources
 
 	[Bash Cheat Sheet by RehanSaeed](https://github.com/RehanSaeed/Bash-Cheat-Sheet)
+	[Official Git documentation](https://git-scm.com/docs)
 	
