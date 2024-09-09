@@ -47,5 +47,6 @@
 ## Sources
 
 [Bash Cheat Sheet by RehanSaeed](https://github.com/RehanSaeed/Bash-Cheat-Sheet)
+
 [Official Git documentation](https://git-scm.com/docs)
 	
