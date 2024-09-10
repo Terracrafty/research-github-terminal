@@ -41,7 +41,15 @@
 	- git commit
 		- Creates a new commit from the current contents of the index.
 	- git branch
-		- Displays and creates new branches in the repository.
+		- Displays and creates new branches of the repository.
+    - git checkout
+        - Changes active branch and resets the working tree
+        - Being split into git switch and git restore, as it was deemed that git checkout does too many different things which is causing confusion for many users.
+
+## Bonus facts
+Git står för "Global Information Tracker" när den fungerar och "Goddamn Idiotic Truckload of sh*t" när den inte gör det.
+
+Markdown använder tab eller 4 mellanslag för att skapa ett kodblock, vilket blev rätt snyggt i det här fallet, men jag bör vara mer försiktig med att organisera text med indentering annars.
 	
 
 ## Sources
@@ -49,4 +57,10 @@
 [Bash Cheat Sheet by RehanSaeed](https://github.com/RehanSaeed/Bash-Cheat-Sheet)
 
 [Official Git documentation](https://git-scm.com/docs)
+
+[Difference between git checkout and git switch](https://stackoverflow.com/questions/57265785/whats-the-difference-between-git-switch-and-git-checkout-branch)
+
+[Original Git README](https://github.com/git/git/blob/e83c5163316f89bfbde7d9ab23ca2e25604af290/README)
+
+[Markdown syntax reference](https://www.markdownguide.org/basic-syntax/)
 	
